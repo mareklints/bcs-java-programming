@@ -1,9 +1,9 @@
 package javaonline.oop;
 
 public class Country {
-    public String name;
-    public double gdp;
-    public int population;
+    private String name;
+    private double gdp;
+    private int population;
 
     public Country() {
     }
@@ -11,6 +11,29 @@ public class Country {
     public Country(String name, double gdp, int population) {
         this.name = name;
         this.gdp = gdp;
+        this.population = population;
+    }
+
+    public String getName() {
+        String sizeCategory = this.population >= 10_000_000 ? "SUUR RIIK" : "VÄIKE RIIK";
+        return name + " (" + sizeCategory + ")";
+    }
+
+    public void setName(String name) {
+        if (name != null && name.length() > 2) {
+            this.name = name;
+        }
+    }
+
+    public double getGdp() {
+        return gdp;
+    }
+
+    public void setGdp(double gdp) {
+        this.gdp = gdp;
+    }
+
+    public void setPopulation(int population) {
         this.population = population;
     }
 
