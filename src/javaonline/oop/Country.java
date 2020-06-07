@@ -5,6 +5,15 @@ public class Country {
     public double gdp;
     public int population;
 
+    public Country() {
+    }
+
+    public Country(String name, double gdp, int population) {
+        this.name = name;
+        this.gdp = gdp;
+        this.population = population;
+    }
+
     public double getGdpPerCapita() {
         return this.gdp / this.population * 1_000_000;
     }
