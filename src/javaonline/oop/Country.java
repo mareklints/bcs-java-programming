@@ -1,3 +1,5 @@
+package javaonline.oop;
+
 public class Country {
     public String name;
     public double gdp;

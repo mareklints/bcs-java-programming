@@ -1,3 +1,5 @@
+package javaonline.basics;
+
 public class LoopDemo {
     public static void main(String[] args) {
 

@@ -1,3 +1,5 @@
+package javaonline.oop;
+
 public class OopBasics {
     public static void main(String[] args) {
         /*

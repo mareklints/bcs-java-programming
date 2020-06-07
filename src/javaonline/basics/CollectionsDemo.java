@@ -1,3 +1,5 @@
+package javaonline.basics;
+
 import java.util.*;
 
 public class CollectionsDemo {

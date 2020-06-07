@@ -1,3 +1,5 @@
+package javaonline.oop;
+
 public class MethodDemo {
     public static void main(String[] args) {
         int number1 = 20;

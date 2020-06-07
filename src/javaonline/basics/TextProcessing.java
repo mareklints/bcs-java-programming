@@ -1,3 +1,5 @@
+package javaonline.basics;
+
 public class TextProcessing {
     public static void main(String[] args) {
         String myText = "Isa ütles: \"Tule siia!\"";

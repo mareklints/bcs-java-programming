@@ -1,3 +1,5 @@
+package javaonline.basics;
+
 public class TextProcessing2 {
     public static void main(String[] args) {
         String text1 = "Elon Musk";
